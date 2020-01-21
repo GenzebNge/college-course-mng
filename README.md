@@ -30,8 +30,20 @@ git worl flow
 git init
 git status
 ls -a
+git add filename
+git rm --cached filename
+git commit -m "This is the commit messages"
+git log   allows us to see our commit history locally
+git log  --oneline to check the condensed version of that repository 
 working area --git add ->> Staging area -- git commit ==> repository
 
+git remote add origin git@github.com:GenzebNge/college-course-mng.git
 
 
+Change your remote's URL from SSH to HTTPS with the git remote set-url command.
+
+$ git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
+git remote -v
+
+https://github.com/GenzebNge/college-course-mng.git
 
