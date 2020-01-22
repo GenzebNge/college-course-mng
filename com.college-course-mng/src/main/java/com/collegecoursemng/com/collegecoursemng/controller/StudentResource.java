@@ -19,7 +19,5 @@ public class StudentResource {
 		return studentService.findAll();
 	}
 	
-	
-	
 
 }
